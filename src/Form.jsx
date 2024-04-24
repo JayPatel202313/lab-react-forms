@@ -23,7 +23,7 @@ function Form() {
             }
         });
         if (isNan) {
-            setSum("Invalid Input");
+            setSum("Invalid input.");
             return;
         }
 
@@ -48,7 +48,7 @@ function Form() {
             setSum(`The number ${Array.from(map2)[0][0]} appears ${Array.from(map2)[0][1]} times`);
 
         } else {
-            setSum("Invalid operation.");
+            setSum("Invalid input.");
             return;
         }
         setInputVal("");
