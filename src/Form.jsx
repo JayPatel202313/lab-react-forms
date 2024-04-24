@@ -22,7 +22,9 @@ function Form() {
                 return Number(a);
             }
         });
+
         if (isNan || arr.length==0 || inputVal=='') {
+
             setSum("Invalid input.");
             return;
         }
